@@ -672,7 +672,7 @@
     // Add height of detail div (normal vertical mode only)
     if ( commit.detail !== null ) {
       commit.detail.style.display = "block";
-      this.parent.commitOffsetY -= commit.detail.clientHeight - 40;
+      this.parent.commitOffsetY -= commit.detail.clientHeight + 13;
     }
 
     // Auto-render

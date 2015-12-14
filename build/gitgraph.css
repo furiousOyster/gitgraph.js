@@ -31,3 +31,12 @@
   width: 600px;
   display: none;
 }
+
+.gitgraph-detail-well {
+  position: absolute;
+  /*padding: 0px;*/
+  /*text-align: justify;*/
+  /*width: 100%;*/
+  display: none;
+  margin: -20px 20px;
+}
